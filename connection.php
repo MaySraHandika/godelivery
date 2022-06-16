@@ -1,4 +1,3 @@
-
 <?php
 $connection = null;
 try {
@@ -14,9 +13,9 @@ try {
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     if($connection) {
-       echo "Koneksi Berhasil";
+        echo "Koneksi Berhasil";
     } else {
-       echo "Error";
+        echo "Error";
     }
 
 } catch (PDOException $e) {
